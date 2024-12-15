@@ -1,30 +1,36 @@
-Personal Finance Tracker
+# Personal Finance Tracker
+
 This is a simple personal finance tracker application built with Python. It allows users to track their income and expenses, manage budgets, receive alerts, view transactions, and generate detailed financial reports.
 
-Features
-Add Income and Expense Transactions: Easily add and categorize your income and expenses.
+# Features
 
-View Transactions: View a detailed list of all your transactions, including dates, categories, and descriptions.
+- **Add Income and Expense Transactions:** Easily add and categorize your income and expenses.
 
-Budget Management: Set budgets for different categories and monitor your spending against these budgets.
+- **View Transactions:** View a detailed list of all your transactions, including dates, categories, and descriptions.
 
-Alerts and Notifications: Receive real-time alerts via AWS SNS when your spending exceeds or approaches your budget limits.
+- **Budget Management:** Set budgets for different categories and monitor your spending against these budgets.
 
-Financial Reports: Generate comprehensive financial reports and export them to CSV for further analysis.
+- **Alerts and Notifications:** Receive real-time alerts via AWS SNS when your spending exceeds or approaches your budget limits.
 
-SQLite Database: Securely store all financial data using SQLite.
+- **Financial Reports:** Generate comprehensive financial reports and export them to CSV for further analysis.
 
-Project Structure
-main.py: The main script that runs the application.
+- **SQLite Database:** Securely store all financial data using SQLite.
 
-database.py: Handles database operations.
+  
+# Project Structure
 
-transaction.py: Defines the Transaction class.
+- **main.py:** The main script that runs the application.
 
-report.py: Contains functions for generating financial reports.
+- **database.py:** Handles database operations.
 
-config.py: Stores configuration settings.
+- **transaction.py:** Defines the Transaction class.
 
-requirements.txt: Lists the project dependencies.
+- **report.py:** Contains functions for generating financial reports.
 
-README.md: This file, containing project information and instructions.
+- **config.py:** Stores configuration settings.
+
+- **requirements.txt:** Lists the project dependencies.
+
+- **README.md:** This file, containing project information and instructions.
+
+
